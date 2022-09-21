@@ -1,0 +1,49 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder build"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "build": {
+    "appId": "com.example.calculator",
+    "productName": "Calculator",
+    "linux": {
+      "category": "Utils",
+      "icon": "assets/icons",
+      "packageCategory": "utils",
+      "maintainer": "Jane Doe <janedoe@example.com>",
+      "target": [
+        "deb"
+      ],
+      "synopsis": "A simple calculator"
+    }
+  },
+  "deb": {
+    "depends": [
+      "gconf2",
+      "gconf-service",
+      "libnotify4",
+      "libappindicator",
+      "libxtst6",
+      "libnss3"
+    ]
+  },
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^20.1.4",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {}
+}
