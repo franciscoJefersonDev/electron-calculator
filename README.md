@@ -1,6 +1,6 @@
 # CALCULATOR
 
-## This is my calculator fot PCs with Operations System Linux.
+## This is my calculator for PCs with Operations System Linux.
 
 ## It was created with electron based on the web calculator (pwa).
 
